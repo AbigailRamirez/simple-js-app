@@ -3,9 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pokédex</title>
-    <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32" >
-
+    
     <!--Link to access Bootstrap's CSS framework-->
     <link 
     rel="stylesheet" 
@@ -13,17 +11,45 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous">
 
-
+    <!--self-written CSS -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!--tab stuff-->
+    <title>Pokédex</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32" >
+
+
   </head>
   <body>
-    <ul class="pokemon-list">
+   <!-- <ul class="pokemon-list">
 
     </ul>
     <div id="modal-container">
       
     </div>
+    -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- scripts to use polyfills -->
     <script src="js/promise-polyfill.js"></script>
     <script src="js/fetch-polyfill.js"></script>
 
@@ -44,7 +70,7 @@
      crossorigin="anonymous">
     </script>
 
-
+    <!-- self-written js script -->
     <script src="js/scripts.js"></script>
   </body>
 </html>
