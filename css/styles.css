@@ -1,9 +1,13 @@
 .pokemon-list {
     list-style-type: none;
     text-align: center;
+    
+}
+.group-list-item {
+  padding-bottom: 10px;
 }
 
-.button-class { 
+.btn-primary { 
     font-family: Koulen; 
     font-weight: 0;
     font-size: 20px;
@@ -19,7 +23,7 @@
     
 }
         
-.button-class:hover{ 
+.btn-primary:hover{ 
     transition : 1000ms; 
     padding: 10px 44px; 
     transform : translateY(-0px);
