@@ -11,3 +11,16 @@ To build a small web application with HTML, CSS, and JavaScript that loads data 
 Currently using the V2.0 of the [pokedex API](https://pokeapi.co/docs/v2#info)
 
 
+#### ESLint rules
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "quotes": ["error", "single"]
+  }
+}
